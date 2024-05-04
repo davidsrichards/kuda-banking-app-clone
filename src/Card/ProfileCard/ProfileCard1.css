@@ -1,0 +1,48 @@
+.profile-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.profile-card {
+  position: relative;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px;
+  width: 18rem;
+  padding-bottom: 50px;
+  box-shadow: 0px 0px 15px 0px hsl(0, 0%, 88%);
+}
+
+.message {
+  text-wrap: wrap;
+  word-wrap: break-word;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(95, 92, 92);
+}
+
+.summary {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-pix {
+  width: 16%;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  position: relative;
+  left: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: sans-serif;
+}

@@ -1,0 +1,14 @@
+.flag-container .flag {
+  width: 80%;
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  top: 5px;
+}
+
+.flag-container {
+  background: rgb(140, 179, 169);
+  padding: 9px 9.3px;
+  border-radius: 50%;
+  text-align: center;
+}

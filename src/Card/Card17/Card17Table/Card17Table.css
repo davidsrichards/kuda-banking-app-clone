@@ -1,0 +1,15 @@
+.table17-heads {
+  color: indigo;
+  font-family: sans-serif;
+  padding-bottom: 1rem;
+  font-size: 14px;
+  position: relative;
+  left: 10px;
+}
+
+.table17-cell {
+  font-size: 12.5px;
+  font-weight: normal;
+  margin: 0px 10px;
+  color: rgb(86, 82, 82);
+}

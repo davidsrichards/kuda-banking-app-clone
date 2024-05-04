@@ -1,0 +1,32 @@
+.card17-handle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-bottom: 3rem;
+}
+
+.card17-contact {
+  padding-bottom: 0.5rem;
+  font-family: sans-serif;
+  color: indigo;
+}
+
+.card17-handle-container a {
+  position: relative;
+  right: 3px;
+  font-size: 16px;
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+}
+
+.card17-handle-logo {
+  border: 0.1px solid hsl(0, 0%, 50%);
+  border-radius: 50%;
+  padding: 6px;
+  background: rgb(230, 235, 255);
+  margin: 0px 5px;
+  position: relative;
+  right: 3px;
+  cursor: pointer;
+}

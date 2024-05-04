@@ -1,0 +1,55 @@
+.card3-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 220px;
+
+  justify-content: space-around;
+}
+
+.card3A {
+  width: 20rem;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card3-container .card3A .heads {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: indigo;
+}
+
+.card3-container .card3A .note {
+  font-weight: lighter;
+}
+.card3-container .card3A a {
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.card3-container .card3A .ancho {
+  display: flex;
+  align-items: center;
+}
+.card3-container .card3A .ancho .arrow {
+  display: flex;
+  font-size: 20px;
+}
+
+.card3B {
+  width: 28rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+
+.card3B .ai-img {
+  width: 128%;
+  border-radius: 50%;
+}

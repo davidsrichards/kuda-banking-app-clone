@@ -1,0 +1,52 @@
+.card15-container {
+  margin-top: 10rem;
+}
+
+.card15-apple {
+  width: 28%;
+  position: relative;
+  border-radius: 50%;
+}
+
+.card15-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+}
+
+.card15-container button {
+  width: 8.7rem;
+  background: black;
+  height: 2.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card15-container button .small {
+  font-size: 9px;
+}
+
+.card15-container button .big {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card15-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card15-btn {
+  margin: 0px 10px;
+  align-items: center;
+  justify-content: center;
+}

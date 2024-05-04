@@ -1,0 +1,41 @@
+.card13-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card13-image {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.card13-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+  width: 50rem;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background: rgb(230, 235, 255);
+  box-shadow: 10px 5px 25px 25px hsl(0, 0%, 96%);
+}
+
+.card13-inner-container .card13-group1 h1 {
+  text-wrap: wrap;
+  font-family: sans-serif;
+  color: rgb(74, 9, 121);
+}
+
+.card13-inner-container .card13-group1 input {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  background: rgb(57, 3, 96);
+  color: white;
+  cursor: pointer;
+}
+.card13-mg {
+  margin: 0px 15px;
+}

@@ -1,0 +1,16 @@
+.card14-image {
+  width: 12%;
+  position: relative;
+  left: 20px;
+}
+
+.card14-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.c14 {
+  position: relative;
+  right: 30px;
+}

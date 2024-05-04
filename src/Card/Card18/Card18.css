@@ -1,0 +1,31 @@
+.card18-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card18-inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card18-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  width: 50rem;
+  margin-top: 3rem;
+}
+
+.card18-container .card18-footer-container .card18p {
+  text-wrap: wrap;
+  word-wrap: break-word;
+  font-size: 12px;
+  color: rgb(148, 143, 143);
+}

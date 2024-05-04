@@ -1,0 +1,16 @@
+.card12-images {
+  display: flex;
+}
+
+.card12-img {
+  color: rgb(158, 122, 185);
+}
+
+.im {
+  margin: 0px 5px;
+}
+
+.card12-images .im2 {
+  font-size: 14px;
+  text-wrap: wrap;
+}

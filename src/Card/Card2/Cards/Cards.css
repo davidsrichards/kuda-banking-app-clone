@@ -1,0 +1,55 @@
+.cards-container {
+  position: relative;
+  top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.cards-message {
+  padding: 10px 20px;
+  height: 120px;
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 4.3px 5px hsl(0, 0%, 98%);
+  margin: 10px;
+}
+
+.cards-container .details {
+  position: relative;
+  left: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+.bank-card-container .bank-card-image {
+  position: relative;
+  right: 12.8px;
+  top: 2px;
+  height: 18px;
+  width: 50px;
+}
+.bank-card-container {
+  padding: 8px;
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgb(227, 230, 255);
+  border: none;
+  position: relative;
+  top: -5px;
+}
+
+.details .card-message {
+  font-weight: bold;
+  color: rgb(54, 2, 91);
+}

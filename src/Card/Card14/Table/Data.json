@@ -1,0 +1,57 @@
+[
+  {
+    "personal": "Discover Personal",
+    "business": "Discover Business",
+    "company": "Blog",
+    "help": "Get Help",
+    "transparency": "Terms & Conditions"
+  },
+
+  {
+    "personal": "Transfer & Spend",
+    "business": "Business Registration",
+    "company": "Press",
+    "help": "Scam Awareness",
+    "transparency": "Privacy Policy"
+  },
+
+  {
+    "personal": "Save",
+    "business": "Soft POS",
+    "company": "Join Our Team",
+    "help": "FAQs",
+    "transparency": "Information Security Policy"
+  },
+
+  {
+    "personal": "Investments",
+    "business": "Invoicing",
+    "company": "About Us",
+    "help": "Security",
+    "transparency": "Cookie Policy"
+  },
+
+  {
+    "personal": "Kuda card",
+    "business": "Salary Loan",
+    "company": "",
+    "help": "Contact Us",
+    "transparency": "Whistleblowing Policy"
+  },
+
+  {
+    "personal": "",
+    "business": "Business API",
+    "company": "",
+    "help": "Self Help",
+    "transparency": ""
+  },
+
+  {
+    "personal": "",
+    "business": "Join Kuda Business",
+    "company": "",
+    "help": "",
+    "transparency": ""
+  }
+]

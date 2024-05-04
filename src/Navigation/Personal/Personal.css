@@ -1,0 +1,13 @@
+a {
+  text-decoration-line: none;
+  margin: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.drop-down {
+  display: flex;
+  position: relative;
+  right: 7px;
+  top: 2px;
+}

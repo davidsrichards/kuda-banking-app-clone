@@ -1,0 +1,9 @@
+.join {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  background: indigo;
+  cursor: pointer;
+}

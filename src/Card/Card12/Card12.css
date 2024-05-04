@@ -1,0 +1,76 @@
+.card12-container {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 250px;
+  padding: 20px 0px;
+  padding-bottom: 17rem;
+}
+
+.body {
+  padding: 200px 0px;
+  width: 40.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  /* box-shadow: 0px 0px 5px 5px hsl(0, 0%, 99%); */
+}
+
+.card12-head {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -162px;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px 100px;
+  margin: 10px 10px;
+  box-shadow: 0px 0px 5px 5px hsl(0, 0%, 98%);
+}
+.hd {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: rgb(91, 29, 135);
+  position: relative;
+  left: 3.6rem;
+}
+
+.card12-heads {
+}
+
+.card12-kuda-image {
+  width: 28%;
+  position: relative;
+  left: 3.5rem;
+}
+
+.upper-card .int h1 {
+  font-family: sans-serif;
+  color: rgb(65, 7, 106);
+}
+
+.upper-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-class {
+  position: relative;
+  top: -10.8rem;
+}
+
+.cell {
+  display: flex;
+  margin: 10px 14px;
+}
+
+.row {
+  padding: 0px 5px;
+  box-shadow: 0px 0px 5px 5px hsl(0, 0%, 98%);
+}

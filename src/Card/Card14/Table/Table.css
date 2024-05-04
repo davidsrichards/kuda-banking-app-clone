@@ -1,0 +1,22 @@
+.card14-table-head {
+  display: flex;
+  margin: 0px 30px;
+  font-size: 15px;
+  font-weight: normal;
+  color: indigo;
+  position: relative;
+  right: 10px;
+  padding-bottom: 15px;
+}
+
+.card14-table-cell {
+  margin: 0px 20px;
+  font-size: 13px;
+  padding-bottom: 12px;
+  font-weight: normal;
+  color: rgb(104, 101, 101);
+}
+
+.card14-table-container {
+  flex-wrap: wrap;
+}
