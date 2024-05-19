@@ -1,11 +1,10 @@
-.card1-container {
+/* .card1-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .containerA {
-  /*  border: 1px solid; */
   padding: 50px;
   width: 38%;
   height: 450px;
@@ -44,6 +43,7 @@
   width: 20%;
 }
 .btn {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +52,6 @@
   text-align: start;
   border-radius: 8px;
   margin: 5px;
-  cursor: pointer;
 }
 
 .btn .small {
@@ -102,7 +101,7 @@
   width: 50%;
   position: relative;
   top: -50px;
-}
+} */
 
 /* .a {
   border: 1px solid hsl(0, 0%, 90%);

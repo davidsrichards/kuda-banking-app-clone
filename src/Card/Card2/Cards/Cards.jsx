@@ -9,7 +9,7 @@ import { FaCloudMeatball } from "react-icons/fa6";
 function Cards() {
   return (
     <>
-      <section className="cards-container">
+      <section className="cards-container flex flex-wrap items-center justify-center lg:space-x-4 space-y-4">
         <CardsStore
           icon={<RiBankCard2Fill className="bank-card-image" />}
           message="Order a Kuda Visa card on the app with pickup and delivery options."
