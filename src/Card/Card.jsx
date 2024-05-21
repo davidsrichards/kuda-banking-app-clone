@@ -23,8 +23,8 @@ import ProfileCard1 from "./ProfileCard/ProfileCard1";
 function Card() {
   return (
     <>
-      <div className="card-container">
-        <div className="headss">
+      <div className="card-container flex items-center justify-center mx-auto">
+        <div className="headss flex flex-col items-center justify-center container p-4 mx-auto">
           <Head1 />
           <Cards />
           <Card3 />

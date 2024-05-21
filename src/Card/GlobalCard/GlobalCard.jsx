@@ -5,11 +5,11 @@ import DefaultProps from "../DefaultProps";
 function GlobalCard({ headings, paragraph, ancho, arrow, img }) {
   return (
     <>
-      <div className="card3A">
+      <div className="card3A space-y-4 m-auto mx-auto">
         <div className="heads">
-          <h1>{headings}</h1>
+          <h1 className="text-4xl">{headings}</h1>
         </div>
-        <div className="note">{paragraph}</div>
+        <div className="note text-[18px]">{paragraph}</div>
         <p className="">
           <a href="#" className="ancho">
             {ancho}
@@ -18,9 +18,9 @@ function GlobalCard({ headings, paragraph, ancho, arrow, img }) {
         </p>
       </div>
 
-      <div className="card3B">
-        <img src={img} alt="Image" className="ai-img" />
-      </div>
+      <p className="card3B">
+        <img src={img} alt="Image" className="ai-img w-[42rem]" />
+      </p>
     </>
   );
 }

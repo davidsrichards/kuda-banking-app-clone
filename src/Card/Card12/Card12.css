@@ -1,4 +1,4 @@
-.card12-container {
+/* .card12-container {
   height: 25rem;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   align-items: center;
   position: relative;
   top: 50px;
-  /* box-shadow: 0px 0px 5px 5px hsl(0, 0%, 99%); */
+ 
 }
 
 .card12-head {
@@ -74,3 +74,4 @@
   padding: 0px 5px;
   box-shadow: 0px 0px 5px 5px hsl(0, 0%, 98%);
 }
+ */

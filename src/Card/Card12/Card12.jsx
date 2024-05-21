@@ -30,40 +30,43 @@ function Card12() {
 
   return (
     <>
-      <section className="card3-container card12-container">
-        <div className="upper-card">
-          <div className="int">
-            <h1>Choose the freedom you need.</h1>
-          </div>
-          <div className="body">
-            <div className="card12-head">
-              <h1 className="hd card12-heads">Other Banks</h1>
+      <section className="card3-container card12-container flex items-center justify-center mt-12 mx-auto">
+        <div className="upper-card flex flex-col items-center justify-center">
+          <h1 className="font-bold text-3xl text-indigo-900 pb-8">
+            Choose the freedom you need.
+          </h1>
+
+          <div className="data-container flex flex-col items-center  p-4 divide-y shadow-md border-t-2 mt-10">
+            <div className="flex items-center ml-10 justify-center">
+              <h1 className="hd card12-heads font-bold text-2xl text-indigo-900">
+                Other Banks
+              </h1>
               <img
                 src={kudaImg}
                 alt="kuda.image"
-                className="card12-kuda-image card12-heads"
+                className="card12-kuda-image card12-heads w-24 relative left-8 top-1"
               />
             </div>
+            <table {...getTableProps()} className="table-class">
+              <tbody {...getTableBodyProps()} className="divide-y">
+                {rows.map((row) => {
+                  prepareRow(row);
 
-            <div className="data-container">
-              <table {...getTableProps()} className="table-class">
-                <tbody {...getTableBodyProps()}>
-                  {rows.map((row) => {
-                    prepareRow(row);
-
-                    return (
-                      <tr {...row.getRowProps()} className="row">
-                        {row.cells.map((cell) => (
-                          <td {...cell.getCellProps()} className="row">
-                            <div className="cell">{cell.render("Cell")}</div>
-                          </td>
-                        ))}
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
+                  return (
+                    <tr {...row.getRowProps()} className="row">
+                      {row.cells.map((cell) => (
+                        <td
+                          {...cell.getCellProps()}
+                          className="row p-2 text-2xl font-sans"
+                        >
+                          {cell.render("Cell")}
+                        </td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

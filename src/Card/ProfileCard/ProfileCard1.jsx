@@ -8,7 +8,7 @@ import dave from "../../assets/ImageFolder/dave.jpg";
 function ProfileCard() {
   return (
     <>
-      <section className="card3-container profile-card-container">
+      <section className="card3-container flex lg:flex-row flex-col flex-wrap mt-4 container p-4">
         <GlobalProfileCard
           comment="Well done to the guys at @kudabank had a dispensing error on Friday night and reached out to them on Sunday... 48 working hours after and my money is back in my account... Special shout out to Maxwell and Norah
 "

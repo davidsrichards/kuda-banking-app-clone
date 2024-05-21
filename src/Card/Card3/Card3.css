@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  align-items: center;
   top: 220px;
 
   justify-content: space-around;
@@ -41,15 +42,12 @@
 }
 
 .card3B {
-  width: 28rem;
   align-items: center;
   display: flex;
   justify-content: center;
   position: relative;
-  top: -40px;
 }
 
 .card3B .ai-img {
-  width: 128%;
   border-radius: 50%;
 }

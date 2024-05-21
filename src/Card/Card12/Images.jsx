@@ -5,7 +5,7 @@ function Images({ image, message }) {
     <>
       <div className="card12-images">
         <span className="card12-img im">{image}</span>
-        <span className="card12-image2 im im2"> {message}</span>
+        <span className="card12-image2 im im2 text-slate-500"> {message}</span>
       </div>
     </>
   );
