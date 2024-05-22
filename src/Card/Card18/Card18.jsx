@@ -7,9 +7,9 @@ import "./Card18.css";
 function Card18() {
   return (
     <>
-      <section className="card3-container card18-container">
+      <section className="card3-container card18-container mt-[7rem]">
         <div className="card18-inner-container">
-          <footer className="card18-footer-container">
+          <footer className="card18-footer-container space-y-4 text-[15px] text-slate-400 break-words container p-12 flex flex-col items-start justify-center">
             <p className="card18p">
               &copy;2024 Kuda Technologies Ltd (Company No.11472232). All rights
               reserved.

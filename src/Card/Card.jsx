@@ -24,7 +24,7 @@ function Card() {
   return (
     <>
       <div className="card-container flex items-center justify-center mx-auto">
-        <div className="headss flex flex-col items-center justify-center container p-4 mx-auto">
+        <div className="headss  container p-4 mx-auto mt-[10rem] grid justify-items-center">
           <Head1 />
           <Cards />
           <Card3 />

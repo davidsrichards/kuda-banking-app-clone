@@ -14,6 +14,9 @@ import Join from "./Join/Join";
 import CountryFlag from "./CountryFlag/CountryFlag";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoIosMenu } from "react-icons/io";
+import flag from "../assets/ImageFolder/nigeria-flag.png";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
+<HiOutlineMenuAlt4 />;
 
 /* let a  = "<SignIn />
           <Join />
@@ -46,7 +49,19 @@ function Navigation() {
         </div>
         <div>
           {" "}
-          <IoIosMenu className="absolute lg:hidden right-8 text-2xl top-6 cursor-pointer" />
+          {/* <div className="bg-green-100 absolute right-[6rem] top-6 p-1 px-[0.3rem] rounded-full">
+            <img src={flag} alt="" className=" relative w-5 h-6 rounded-full" />
+          </div> */}
+          <div className="absolute flex items-center justify-center right-9 space-x-6 top-4 lg:invisible">
+            <span className="border p-2 rounded-full bg-green-100 px-[0.6rem]">
+              <img
+                src={flag}
+                alt=""
+                className=" relative w-4 h-5 rounded-full  cursor-pointer"
+              />
+            </span>
+            <HiOutlineMenuAlt4 className="text-2xl cursor-pointer" />
+          </div>
         </div>
       </div>
     </>

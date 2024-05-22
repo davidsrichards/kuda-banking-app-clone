@@ -8,8 +8,8 @@ import Card15GlobalContainer from "../Card15/Card15-GlobalContainer";
 function Head1() {
   return (
     <>
-      <div className="grid lg:grid-cols-2 justify-items-center mx-center">
-        <div className=" flex flex-col items-center lg:items-start contain p-12 space-y-6 w-[32rem]">
+      <div className="grid lg:grid-cols-2 justify-items-center mx-auto">
+        <div className=" flex flex-col items-center lg:items-start contain p-12 space-y-6 w-[32rem] mx-auto">
           <div className="flex flex-col text-center lg:text-start space-y-4">
             <h1 className="text-[3rem] font-bold font-sans text-indigo-900 break-words">
               The money app for Africans.

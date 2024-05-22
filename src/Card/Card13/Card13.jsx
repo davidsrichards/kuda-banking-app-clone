@@ -30,7 +30,7 @@ function Card13() {
           <img src={image} alt="image" className="card13-image card13-mg" />
         </div>
 
-        <div className=" flex flex-col items-center lg:items-start contain p-14 space-y-6 w-[38rem] lg:invisible shadow-sm bg-indigo-50 -mt-[14rem]">
+        <div className=" flex flex-col items-center lg:items-start contain p-14 space-y-6 w-[38rem] lg:invisible shadow-sm bg-indigo-50 -mt-[14rem] mx-auto">
           <div className="flex flex-col text-center lg:text-start space-y-4">
             <h1 className="text-[2rem] font-bold font-sans text-indigo-900 break-words">
               The money app for Africans.

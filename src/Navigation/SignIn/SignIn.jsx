@@ -4,7 +4,7 @@ function SignIn() {
   return (
     <>
       <a href="#" className="sm">
-        <span className="sign">Sign In</span>
+        <span className="sign text-indigo-800">Sign In</span>
       </a>
     </>
   );

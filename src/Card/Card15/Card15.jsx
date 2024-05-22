@@ -13,29 +13,30 @@ import { FaEarthAmericas } from "react-icons/fa6";
 function Card15() {
   return (
     <>
-      <section className="card3-container card15-container">
-        <div className="card15-inner-container">
-          <Card15GlobalContainer
-            image={apple}
-            textA="Download on the "
-            textB="App Store"
-            width="39%"
-          />
+      <section className="card3-container card15-containerb mt-[10rem]">
+        <div className="flex space-x-4">
+          <button className="border flex items-center rounded-lg bg-black text-white p-2 h-12  relative">
+            <img src={apple} alt="" className="w-8 h-8 object-cover" />
+            <div className="flex flex-col items-start">
+              <p className="text-[10px]">Download on the</p>
+              <p className="relative -top-1 font-semibold">App Store</p>
+            </div>
+          </button>
+          <button className="border flex  items-center rounded-lg bg-black text-white p-2 h-12 relative lg:w-">
+            <img src={playStore} alt="" className="w-8 h-8" />
+            <div className="flex flex-col items-start">
+              <span className="text-[10px]">GET IT ON </span>
+              <span className="font-semibold">Google Play</span>
+            </div>
+          </button>
 
-          <Card15GlobalContainer
-            image={playStore}
-            textA="GET IT ON "
-            textB="Google Play"
-            width="25%"
-          />
-
-          <Card15GlobalContainer
-            image={earth}
-            textA="Download on the "
-            textB="App Store"
-            width="20%"
-            right="7px"
-          />
+          <button className="border flex  items-center rounded-lg bg-indigo-900 text-white p-2 h-12 relative lg:w-">
+            <img src={earth} alt="" className="w-8 h-8 rounded-full" />
+            <div className="flex flex-col items-start">
+              <span className="text-[10px]">GET IT ON </span>
+              <span className="font-semibold">Google Play</span>
+            </div>
+          </button>
         </div>
       </section>
     </>
